@@ -1,0 +1,11 @@
+//상수
+// const 자료형 변수명(대문자로 해야함) = 값;
+
+#include<stdio.h>
+int main(){
+  const int YEAR = 1972;       //int는 원래 '정수'라는 뜻. 앞에 const만 추가한 걸로 변수x
+printf("C언어가 발표된 연도 : %d", YEAR);
+
+return 0;
+}
+
